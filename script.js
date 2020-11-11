@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
 function UpdateIntroduction()
 {
-    var titles = [ "student", "programmer", "developer", "memer and suicide is badass", "machine" ];
+    var titles = [ "student", "programmer", "developer", "memer", "machine" ];
     
     // Define our counter as a number
     if(typeof UpdateIntroduction.counter == 'undefined' ) {
