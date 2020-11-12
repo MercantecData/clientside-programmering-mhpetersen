@@ -1,0 +1,35 @@
+
+.content  {
+    position: fixed;
+    height: 100%;
+    background-color: transparent;
+}
+
+.content-about {
+
+    width: auto;
+    height: auto;
+
+    min-width: 400px;
+    min-height: 350px;
+
+    max-width: 50%;
+    max-height: 75%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    background-color: #1a1c1d69;
+    animation:1.5s ease 0.5s normal forwards 1 fadein;
+    -webkit-animation:1.5s ease 0.5s normal forwards 1 fadein;
+    opacity:0
+}
+
+.content-title {
+    margin-top: 30px;
+    height: 50px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}

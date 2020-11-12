@@ -6,12 +6,13 @@
         <link rel="stylesheet" href="about-style.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../script.js"></script>
     </head>
     <body>
         <div class="navigation-bar">
             <ul class="navigation-bar-list">
                 <li><a href="/">Home</a></li>
-                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Projects</a></li>
+                <li><a href="/projects/">Projects</a></li>
                 <li><a href="/about/">About</a></li>
             </ul>
         </div>
@@ -20,10 +21,20 @@
         </div>
         <div class="content">
             <div class="content-about">
-                <h1 class="content-title">About</h1>
-
+                <div class="content-column" id="content-left">
+                    <h1 id="content-left-about">
+                        About
+                    </h1>
+                    <p class="content-left-bio">
+                        Mathias Hornbæk is a danish person currently studying to become a programmer, he has mainly worked with C++ and C#
+                    </p>
+                    <p class="content-left-bio">
+                        he has recently started learning HTML, CSS and JavaScript.
+                    </p>
+                </div>
+                <div class="content-column" id="content-right"></div>
             </div>
         </div>
-        <script src="../script.js"></script>
+        <script>""</script>
     </body>
 </html>
